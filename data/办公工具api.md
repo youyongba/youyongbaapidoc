@@ -50,29 +50,31 @@
 | publisher   | String  | 发布者                             |
 
 
-```json
-{
-  "status": true,
-  "message": "成功",
-  "data": [
-    {
-      "thumbnail": "http://example.com/thumbnail7.jpg",
-      "title": "智能办公助手G",
-      "icon": "http://example.com/icon7.png",
-      "description": "整合了日程管理、文件分享、会议调度等多项功能，提高工作效率，适用于各类办公场景。",
-      "id": 7,
-      "url": "http://example.com/toolG",
-      "pinyin": "zhinengbangongzhushou",
-      "isTrending": true,
-      "isApproved": true,
-      "isAdmin": false,
-      "publishedAt": "2023-07-30",
-      "publisher": "开发者G"
+
+
+  ```json
+  {
+    "status": true,
+    "message": "成功",
+    "data": {
+      "list":[
+      {
+        "thumbnail": "247.5*116",
+        "title": "chatgpt",
+        "icon": "xxx.png",
+        "description": "chatgpt是一个开源的聊天机器人项目，基于GPT-3模型，可以实现自然语言对话和文本生成。",
+        "id": 1,
+        "url": "http://chatgpt.com",
+        "pinyin": "chatgpt",
+        "publishedAt": "2021-01-01",
+        "publisher": "张三"
+      }
+      // 可能包含更多工具项...
+    ],
+    "total": 100
     }
-    // 此处可以根据实际情况添加更多工具项...
-  ]
-}
-```
+  }
+  ```
 
 #### 失败
 

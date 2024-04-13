@@ -51,7 +51,8 @@
 {
   "status": true,
   "message": "成功",
-  "data": [
+  "data": {
+    "list":[
     {
       "thumbnail": "图像链接",
       "title": "工具名称",
@@ -68,6 +69,9 @@
     }
     // 更多工具项...
   ]
+  "total": 100
+  }
+    
 }
 ```
 

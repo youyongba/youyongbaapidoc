@@ -49,29 +49,29 @@
 | publisher    | String  | 发布者         |
 
 
-```json
-{
-"status": true,
-"message": "成功",
-"data": [
-    {
-    "thumbnail": "247.5*116",
-    "title": "chatgpt",
-    "icon": "xxx.png",
-    "description": "chatgpt是一个开源的聊天机器人项目，基于GPT-3模型，可以实现自然语言对话和文本生成。",
-    "id": 1,
-    "url": "http://chatgpt.com",
-    "pinyin": "chatgpt",
-    "isTrending": true,
-    "isApproved": true,
-    "isAdmin": false,
-    "publishedAt": "2021-01-01",
-    "publisher": "张三"
+  ```json
+  {
+    "status": true,
+    "message": "成功",
+    "data": {
+      "list":[
+      {
+        "thumbnail": "247.5*116",
+        "title": "chatgpt",
+        "icon": "xxx.png",
+        "description": "chatgpt是一个开源的聊天机器人项目，基于GPT-3模型，可以实现自然语言对话和文本生成。",
+        "id": 1,
+        "url": "http://chatgpt.com",
+        "pinyin": "chatgpt",
+        "publishedAt": "2021-01-01",
+        "publisher": "张三"
+      }
+      // 可能包含更多工具项...
+    ],
+    "total": 100
     }
-    // 可能包含更多工具项...
-]
-}
-```
+  }
+  ```
 
 #### 失败
 

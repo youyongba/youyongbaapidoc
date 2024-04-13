@@ -50,29 +50,31 @@
 | publisher   | String  | 发布者                             |
 
 
-```json
-{
-  "status": true,
-  "message": "成功",
-  "data": [
-    {
-      "thumbnail": "http://example.com/thumbnail12.jpg",
-      "title": "终身学习平台L",
-      "icon": "http://example.com/icon12.png",
-      "description": "提供覆盖多个领域的在线课程和教程，包括编程、设计、市场营销等，帮助个人和团队实现职业发展和技能提升。",
-      "id": 12,
-      "url": "http://example.com/siteL",
-      "pinyin": "zhongshenxuexipingtai",
-      "isTrending": false,
-      "isApproved": true,
-      "isAdmin": false,
-      "publishedAt": "2023-12-04",
-      "publisher": "开发者L"
+
+
+  ```json
+  {
+    "status": true,
+    "message": "成功",
+    "data": {
+      "list":[
+      {
+        "thumbnail": "247.5*116",
+        "title": "chatgpt",
+        "icon": "xxx.png",
+        "description": "chatgpt是一个开源的聊天机器人项目，基于GPT-3模型，可以实现自然语言对话和文本生成。",
+        "id": 1,
+        "url": "http://chatgpt.com",
+        "pinyin": "chatgpt",
+        "publishedAt": "2021-01-01",
+        "publisher": "张三"
+      }
+      // 可能包含更多工具项...
+    ],
+    "total": 100
     }
-    // 此处可以根据实际情况添加更多网站项...
-  ]
-}
-```
+  }
+  ```
 
 #### 失败
 

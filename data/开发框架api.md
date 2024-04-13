@@ -50,29 +50,31 @@
 | publisher   | String  | 发布者                             |
 
 
-```json
-{
-  "status": true,
-  "message": "成功",
-  "data": [
-    {
-      "thumbnail": "http://example.com/thumbnail13.jpg",
-      "title": "全栈开发框架M",
-      "icon": "http://example.com/icon13.png",
-      "description": "支持多种编程语言和技术栈，提供一站式解决方案，帮助开发者快速搭建和部署高性能的应用程序。",
-      "id": 13,
-      "url": "http://example.com/frameworkM",
-      "pinyin": "quanxiangaifakuangjia",
-      "isTrending": false,
-      "isApproved": true,
-      "isAdmin": false,
-      "publishedAt": "2023-01-05",
-      "publisher": "开发者M"
+
+
+  ```json
+  {
+    "status": true,
+    "message": "成功",
+    "data": {
+      "list":[
+      {
+        "thumbnail": "247.5*116",
+        "title": "chatgpt",
+        "icon": "xxx.png",
+        "description": "chatgpt是一个开源的聊天机器人项目，基于GPT-3模型，可以实现自然语言对话和文本生成。",
+        "id": 1,
+        "url": "http://chatgpt.com",
+        "pinyin": "chatgpt",
+        "publishedAt": "2021-01-01",
+        "publisher": "张三"
+      }
+      // 可能包含更多工具项...
+    ],
+    "total": 100
     }
-    // 此处可以根据实际情况添加更多框架项...
-  ]
-}
-```
+  }
+  ```
 
 #### 失败
 

@@ -51,7 +51,8 @@
   {
     "status": true,
     "message": "成功",
-    "data": [
+    "data": {
+      "list":[
       {
         "thumbnail": "247.5*116",
         "title": "chatgpt",
@@ -64,7 +65,9 @@
         "publisher": "张三"
       }
       // 可能包含更多工具项...
-    ]
+    ],
+    "total": 100
+    }
   }
   ```
 

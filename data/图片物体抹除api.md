@@ -50,29 +50,29 @@
 | publisher   | String  | 发布者                             |
 
 
-```json
-{
-  "status": true,
-  "message": "成功",
-  "data": [
-    {
-      "thumbnail": "http://example.com/thumbnail1.jpg",
-      "title": "图片物体抹除工具A",
-      "icon": "http://example.com/icon1.png",
-      "description": "快速准确地从您的照片中移除任何不需要的物体或人物，恢复图片的自然美。",
-      "id": 1,
-      "url": "http://example.com/toolA",
-      "pinyin": "tupianwutimochu",
-      "isTrending": false,
-      "isApproved": true,
-      "isAdmin": false,
-      "publishedAt": "2023-01-15",
-      "publisher": "开发者A"
+  ```json
+  {
+    "status": true,
+    "message": "成功",
+    "data": {
+      "list":[
+      {
+        "thumbnail": "247.5*116",
+        "title": "chatgpt",
+        "icon": "xxx.png",
+        "description": "chatgpt是一个开源的聊天机器人项目，基于GPT-3模型，可以实现自然语言对话和文本生成。",
+        "id": 1,
+        "url": "http://chatgpt.com",
+        "pinyin": "chatgpt",
+        "publishedAt": "2021-01-01",
+        "publisher": "张三"
+      }
+      // 可能包含更多工具项...
+    ],
+    "total": 100
     }
-    // 此处可以根据实际情况添加更多工具项...
-  ]
-}
-```
+  }
+  ```
 
 #### 失败
 

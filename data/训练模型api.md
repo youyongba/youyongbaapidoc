@@ -50,29 +50,31 @@
 | publisher   | String  | 发布者                             |
 
 
-```json
-{
-  "status": true,
-  "message": "成功",
-  "data": [
-    {
-      "thumbnail": "http://example.com/thumbnail11.jpg",
-      "title": "人工智能训练平台K",
-      "icon": "http://example.com/icon11.png",
-      "description": "提供全面的机器学习和深度学习模型训练服务，支持多种编程语言和框架，帮助开发者和研究人员快速构建和部署高效的AI模型。",
-      "id": 11,
-      "url": "http://example.com/toolK",
-      "pinyin": "rengongzhinengxunlianpingtai",
-      "isTrending": false,
-      "isApproved": true,
-      "isAdmin": false,
-      "publishedAt": "2023-11-03",
-      "publisher": "开发者K"
+
+
+  ```json
+  {
+    "status": true,
+    "message": "成功",
+    "data": {
+      "list":[
+      {
+        "thumbnail": "247.5*116",
+        "title": "chatgpt",
+        "icon": "xxx.png",
+        "description": "chatgpt是一个开源的聊天机器人项目，基于GPT-3模型，可以实现自然语言对话和文本生成。",
+        "id": 1,
+        "url": "http://chatgpt.com",
+        "pinyin": "chatgpt",
+        "publishedAt": "2021-01-01",
+        "publisher": "张三"
+      }
+      // 可能包含更多工具项...
+    ],
+    "total": 100
     }
-    // 此处可以根据实际情况添加更多工具项...
-  ]
-}
-```
+  }
+  ```
 
 #### 失败
 

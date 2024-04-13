@@ -27,29 +27,31 @@
 
 #### 成功
 
-```json
-{
-  "status": true,
-  "message": "成功",
-  "data": [
-    {
-      "thumbnail": "图像链接",
-      "title": "工具名称",
-      "icon": "图标链接",
-      "description": "工具描述",
-      "id": 1,
-      "url": "工具网址",
-      "pinyin": "工具名称的拼音",
-      "isTrending": true,
-      "isApproved": true,
-      "isAdmin": false,
-      "publishedAt": "发布日期",
-      "publisher": "发布者名称"
+
+
+  ```json
+  {
+    "status": true,
+    "message": "成功",
+    "data": {
+      "list":[
+      {
+        "thumbnail": "247.5*116",
+        "title": "chatgpt",
+        "icon": "xxx.png",
+        "description": "chatgpt是一个开源的聊天机器人项目，基于GPT-3模型，可以实现自然语言对话和文本生成。",
+        "id": 1,
+        "url": "http://chatgpt.com",
+        "pinyin": "chatgpt",
+        "publishedAt": "2021-01-01",
+        "publisher": "张三"
+      }
+      // 可能包含更多工具项...
+    ],
+    "total": 100
     }
-    // 更多工具项...
-  ]
-}
-```
+  }
+  ```
 
 #### 失败
 

@@ -50,29 +50,31 @@
 | publisher   | String  | 发布者                             |
 
 
-```json
-{
-  "status": true,
-  "message": "成功",
-  "data": [
-    {
-      "thumbnail": "http://example.com/thumbnail8.jpg",
-      "title": "全球语言翻译工具H",
-      "icon": "http://example.com/icon8.png",
-      "description": "支持多种语言互译，界面友好，翻译准确率高，适合个人和企业使用，帮助跨越语言障碍。",
-      "id": 8,
-      "url": "http://example.com/toolH",
-      "pinyin": "quanguoyuyanfanyigongju",
-      "isTrending": true,
-      "isApproved": true,
-      "isAdmin": false,
-      "publishedAt": "2023-08-15",
-      "publisher": "开发者H"
+
+
+  ```json
+  {
+    "status": true,
+    "message": "成功",
+    "data": {
+      "list":[
+      {
+        "thumbnail": "247.5*116",
+        "title": "chatgpt",
+        "icon": "xxx.png",
+        "description": "chatgpt是一个开源的聊天机器人项目，基于GPT-3模型，可以实现自然语言对话和文本生成。",
+        "id": 1,
+        "url": "http://chatgpt.com",
+        "pinyin": "chatgpt",
+        "publishedAt": "2021-01-01",
+        "publisher": "张三"
+      }
+      // 可能包含更多工具项...
+    ],
+    "total": 100
     }
-    // 此处可以根据实际情况添加更多工具项...
-  ]
-}
-```
+  }
+  ```
 
 #### 失败
 

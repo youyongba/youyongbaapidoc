@@ -59,7 +59,8 @@ isAdmin | Boolean | 是否管理员发布
   {
     "status": true,
     "message": "成功",
-    "data": [
+    "data": {
+      list :  [
       {
         "thumbnail": "247.5*116",
         "title": "chatgpt",
@@ -75,7 +76,9 @@ isAdmin | Boolean | 是否管理员发布
         "publisher": "张三"
       }
       // 可能包含更多工具项...
-    ]
+    ],
+    "total": 100
+    }
   }
   ```
 

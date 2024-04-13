@@ -45,26 +45,31 @@
 | publishedAt  | String  | 发布日期       |
 | publisher    | String  | 发布者         |
 
-```json
-{
-  "status": true,
-  "message": "成功",
-  "data": [
-      "thumbnail": "http://example.com/thumbnail1.jpg",
-      "title": "无损放大工具A",
-      "icon": "http://example.com/icon1.png",
-      "description": "这是一个能够无损放大图片的工具，支持多种图片格式。",
-      "id": 1,
-      "url": "http://example.com/toolA",
-      "pinyin": "wusunfangda",
-      "isTrending": false,
-      "isApproved": true,
-      "isAdmin": false,
-      "publishedAt": "2023-01-01",
-      "publisher": "开发者A"
-  ]
-}
-```
+
+
+  ```json
+  {
+    "status": true,
+    "message": "成功",
+    "data": {
+      "list":[
+      {
+        "thumbnail": "247.5*116",
+        "title": "chatgpt",
+        "icon": "xxx.png",
+        "description": "chatgpt是一个开源的聊天机器人项目，基于GPT-3模型，可以实现自然语言对话和文本生成。",
+        "id": 1,
+        "url": "http://chatgpt.com",
+        "pinyin": "chatgpt",
+        "publishedAt": "2021-01-01",
+        "publisher": "张三"
+      }
+      // 可能包含更多工具项...
+    ],
+    "total": 100
+    }
+  }
+  ```
 
 #### 失败
 

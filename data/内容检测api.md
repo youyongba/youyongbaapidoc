@@ -50,29 +50,31 @@
 | publisher   | String  | 发布者                             |
 
 
-```json
-{
-  "status": true,
-  "message": "成功",
-  "data": [
-    {
-      "thumbnail": "http://example.com/thumbnail9.jpg",
-      "title": "智能内容检测工具I",
-      "icon": "http://example.com/icon9.png",
-      "description": "利用先进的人工智能技术，快速准确地检测和识别网页、文档中的敏感内容，包括但不限于版权、色情、暴力等违规内容，帮助维护网络环境的健康。",
-      "id": 9,
-      "url": "http://example.com/toolI",
-      "pinyin": "zhinengneirongjiancegongju",
-      "isTrending": false,
-      "isApproved": true,
-      "isAdmin": false,
-      "publishedAt": "2023-09-01",
-      "publisher": "开发者I"
+
+  ```json
+  {
+    "status": true,
+    "message": "成功",
+    "data": {
+      "list":[
+      {
+        "thumbnail": "247.5*116",
+        "title": "chatgpt",
+        "icon": "xxx.png",
+        "description": "chatgpt是一个开源的聊天机器人项目，基于GPT-3模型，可以实现自然语言对话和文本生成。",
+        "id": 1,
+        "url": "http://chatgpt.com",
+        "pinyin": "chatgpt",
+        "publishedAt": "2021-01-01",
+        "publisher": "张三"
+      }
+      // 可能包含更多工具项...
+    ],
+    "total": 100
     }
-    // 此处可以根据实际情况添加更多工具项...
-  ]
-}
-```
+  }
+  ```
+
 
 #### 失败
 

@@ -50,29 +50,29 @@
 | publisher   | String  | 发布者                             |
 
 
-```json
-{
-  "status": true,
-  "message": "成功",
-  "data": [
-    {
-      "thumbnail": "http://example.com/thumbnail3.jpg",
-      "title": "视频编辑工具C",
-      "icon": "http://example.com/icon3.png",
-      "description": "提供全面的视频编辑功能，包括剪辑、合并、特效等，适合所有级别的用户。",
-      "id": 3,
-      "url": "http://example.com/toolC",
-      "pinyin": "shipinbianjigongju",
-      "isTrending": true,
-      "isApproved": true,
-      "isAdmin": false,
-      "publishedAt": "2023-03-10",
-      "publisher": "开发者C"
+  ```json
+  {
+    "status": true,
+    "message": "成功",
+    "data": {
+      "list":[
+      {
+        "thumbnail": "247.5*116",
+        "title": "chatgpt",
+        "icon": "xxx.png",
+        "description": "chatgpt是一个开源的聊天机器人项目，基于GPT-3模型，可以实现自然语言对话和文本生成。",
+        "id": 1,
+        "url": "http://chatgpt.com",
+        "pinyin": "chatgpt",
+        "publishedAt": "2021-01-01",
+        "publisher": "张三"
+      }
+      // 可能包含更多工具项...
+    ],
+    "total": 100
     }
-    // 此处可以根据实际情况添加更多工具项...
-  ]
-}
-```
+  }
+  ```
 
 #### 失败
 
